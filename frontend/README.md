@@ -20,7 +20,7 @@ Ignored details
 
 Requirements:
 
-K5
+K5 - https://github.com/radumereuta/k/tree/sharpParse
 
-K-light
+K-light - https://github.com/radumereuta/k-light/tree/evenLighter
 
