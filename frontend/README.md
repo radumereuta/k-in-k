@@ -12,6 +12,8 @@ All of this is simulated in K5 by running:
 
 `krun grammars/imp-typed.k --output kast` // returns the complete AST of the given K definition
 
+Results of running can be seen in grammars/imp-out.kast and grammars/foobar-out.kast.
+
 Ignored details
 
 - parsing rules or the configuration is not possible without the predefined sorts and productions from kast.k and domains.k. These are integrated in the hand written grammars. The final AST doesn't contain references to those. Only the file given as input.
@@ -23,4 +25,5 @@ Requirements:
 K5 - https://github.com/radumereuta/k/tree/sharpParse
 
 K-light - https://github.com/radumereuta/k-light/tree/evenLighter
+k-light2k5.sh is required to be visible in PATH
 

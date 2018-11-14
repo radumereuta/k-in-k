@@ -72,10 +72,10 @@ module GENERATED
   // subsort diamond
   syntax K ::= Map [symbol(inj)]
   syntax Map ::= KBott [symbol(inj)]
-  
+
   // casts
   syntax Pgm ::= Pgm ":Pgm" [symbol(castToPgm)]
-    
+
   syntax K ::= Pgm [symbol(inj)]
   syntax Pgm ::= KBott [symbol(inj)]
 
@@ -88,3 +88,4 @@ module IMP-CONFIG-GRAMMAR
   imports GENERATED
 
 endmodule
+
